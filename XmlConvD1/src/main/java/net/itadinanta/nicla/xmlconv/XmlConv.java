@@ -111,46 +111,6 @@ public class XmlConv {
 		}
 	}
 
-	public Element getAquagymElement() {
-		return aquagymElement;
-	}
-
-	public Element getCardiofitnessElement() {
-		return cardiofitnessElement;
-	}
-
-	public Element getCircuitTrainingElement() {
-		return circuitTrainingElement;
-	}
-
-	public List<Element> getDailyElement() {
-		return dailyElement;
-	}
-
-	public DateTime getFrom() {
-		return from;
-	}
-
-	public Element getMiniClassiElement() {
-		return miniClassiElement;
-	}
-
-	public List<Element> getPoolDomeElement() {
-		return poolDomeElement;
-	}
-
-	public List<Element> getPoolIndoorsElement() {
-		return poolIndoorsElement;
-	}
-
-	public Element getSpinningElement() {
-		return spinningElement;
-	}
-
-	public DateTime getTo() {
-		return to;
-	}
-
 	public Document load(InputStream inputStream) {
 		try {
 			Builder builder = new Builder();
